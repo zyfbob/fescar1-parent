@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fescar1-api" />
+        <module name="fescar1-eureka" />
+        <module name="fescar1-business" />
+        <module name="fescar1-storage" />
+        <module name="fescar1-transaction" />
+        <module name="fescar1-order" />
+        <module name="fescar1-account" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fescar1-account" target="1.8" />
+      <module name="fescar1-api" target="1.8" />
+      <module name="fescar1-business" target="1.8" />
+      <module name="fescar1-eureka" target="1.8" />
+      <module name="fescar1-order" target="1.8" />
+      <module name="fescar1-parent" target="1.8" />
+      <module name="fescar1-storage" target="1.8" />
+      <module name="fescar1-transaction" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="fescar1-account" options="-parameters" />
+      <module name="fescar1-api" options="-parameters" />
+      <module name="fescar1-business" options="-parameters" />
+      <module name="fescar1-eureka" options="-parameters" />
+      <module name="fescar1-order" options="-parameters" />
+      <module name="fescar1-storage" options="-parameters" />
+      <module name="fescar1-transaction" options="-parameters" />
+    </option>
+  </component>
+</project>
